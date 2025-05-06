@@ -1,0 +1,39 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding-top: 75px; /* space for fixed navbar */
+}
+
+.gradient-text h1,
+.gradient-text h2 {
+  background: -webkit-linear-gradient(#3f87a6, #ebf8e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-item img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carousel-caption h5, .carousel-caption p {
+  background: -webkit-linear-gradient(rgb(187, 2, 243), rgb(61, 33, 103));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-warning {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+  border: none;
+  color: #fff;
+  transition: background-position 0.3s;
+}
+
+.btn-warning:hover {
+  background-position: right center;
+}
+
+.crousle1{
+  height: 100vh;
+  width: 100%;
+}
